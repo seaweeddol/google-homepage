@@ -1,0 +1,104 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: arial, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.navigation {
+  top: 0;
+  display: block;
+  margin-bottom: 200px;
+}
+
+ul {
+  display: inline-block;
+  width: 100%;
+  margin-top: 15px;
+  padding: 0;
+  font-size: 13px;
+}
+
+li {
+  display: inline;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #525252;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.signIn {
+  display: inline;
+  border-radius: 3px;
+  border: none;
+  padding: 10px;
+  width: 70px;
+  color: white;
+  background: #3c7ae4;
+  font-weight: bold;
+}
+
+.left {
+  float: left;
+  margin-left: 20px;
+}
+
+.right {
+  float: right;
+  margin-right: 20px;
+}
+
+.container {
+  display: block;
+  margin: 0 auto;
+  width: 600px;
+  clear: left;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+input {
+  display: block;
+  width: 500px;
+  padding: 10px;
+  margin: 30px auto;
+  border-radius: 3px;
+  border: 1px solid rgb(199, 199, 199);
+  box-shadow: 1px 1px 3px rgb(161, 161, 161);
+}
+
+.buttons {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.searchButton {
+  background: #f1f1f1;
+  border: none;
+  padding: 10px;
+  width: 150px;
+  margin: 0 auto;
+}
+
+.footer {
+  position: absolute;
+  background: #f2f2f2;
+  width: 100%;
+  border-top: 1px solid rgb(209, 209, 209);
+  margin: 0;
+  bottom: 0;
+}
